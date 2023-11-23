@@ -1,0 +1,16 @@
+.wrapper {
+  all: unset;
+  border: 2px rgb(181, 181, 181) solid;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgb(106, 93, 93);
+  color: white;
+}
+
+.danger {
+  background-color: brown;
+}
+
+.success {
+  background-color: green;
+}

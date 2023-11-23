@@ -21,7 +21,15 @@ const Character = ({ id, name, imgUrl, removeCard }) => {
           />
         </>
       ) : (
-        <div className={styles.imagePlaceholder}>no image</div>
+        <div
+          style={{
+            backgroundColor: "#85998a",
+            width: "300px",
+            height: "300px",
+          }}
+        >
+          no image
+        </div>
       )}
     </div>
   );

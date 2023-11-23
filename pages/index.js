@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import Characters from "../components/Characters/Characters";
 import Header from "../components/Header/Header";
 import Spinner from "@/components/Spinner/Spinner";
+import Button from "@/components/Button/Button";
 
 const Main = () => {
   const [characters, setCharacters] = useState(null);
@@ -23,6 +24,21 @@ const Main = () => {
   return (
     <div>
       <Header />
+
+      <Button
+        type="SUCCESS"
+        onButtonClicked={() => {
+          console.log(11111);
+        }}
+      />
+
+      <Button
+        type="DANGER"
+        onButtonClicked={() => {
+          console.log(222222);
+        }}
+      />
+
       {characters ? (
         <Characters characters={characters} setCharacters={setCharacters} />
       ) : (

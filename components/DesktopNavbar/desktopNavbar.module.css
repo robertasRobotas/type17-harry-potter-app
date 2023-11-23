@@ -1,0 +1,16 @@
+.desktopNav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.desktopNav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktopNav {
+    display: none;
+  }
+}
