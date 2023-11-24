@@ -14,6 +14,7 @@ const Characters = ({ characters, setCharacters }) => {
 
   return (
     <div className={styles.wrapper}>
+      {console.log("xxxxx")}
       {characters.map((character) => {
         return (
           <div key={character.id}>
