@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.song {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.song img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+}
