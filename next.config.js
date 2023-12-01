@@ -11,6 +11,9 @@ const nextConfig = {
       },
     ],
   },
+  env: {
+    SERVER_URL: "localhost:8080",
+  },
 };
 
 module.exports = nextConfig;

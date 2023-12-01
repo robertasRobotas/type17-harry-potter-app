@@ -1,5 +1,14 @@
+.wrapper {
+  padding: 1rem;
+  border: black solid 1px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .image {
-  width: 300px;
+  width: 200px;
+  height: 200px;
   min-height: 300px;
   object-fit: cover;
 }
